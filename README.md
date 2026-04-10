@@ -47,14 +47,9 @@ Request:
 }
 
 Response:
-[
-  {
-    "movieId": 109487,
-    "title": "Interstellar",
-    "genres": "Sci-Fi IMAX",
-    "posterUrl": "..."
+{
+    movieIds: [1,2,3]
   }
-]
 
 ---
 
@@ -68,12 +63,11 @@ Request:
 }
 
 Response:
-[
+
   {
-    "movieId": 123,
-    "title": "Movie Name"
+    movieIds: [1,2,3]
   }
-]
+
 
 ---
 
