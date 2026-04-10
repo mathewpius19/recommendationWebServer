@@ -1,0 +1,68 @@
+# ----------------------------
+# 🧠 IntelliJ IDEA
+# ----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ----------------------------
+# 🧱 Build Files (Maven / Gradle)
+# ----------------------------
+target/
+build/
+out/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle wrapper (keep wrapper, ignore build)
+.gradle/
+
+# ----------------------------
+# 📝 Logs
+# ----------------------------
+logs/
+*.log
+
+# ----------------------------
+# 🌐 Environment / Config
+# ----------------------------
+.env
+.env.*
+application-local.properties
+application-dev.properties
+
+# ----------------------------
+# 🧪 Test Output
+# ----------------------------
+test-output/
+
+# ----------------------------
+# 🖥️ OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# 🔧 Temporary Files
+# ----------------------------
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# 🐳 Docker (if added later)
+# ----------------------------
+docker-compose.override.yml
+
+# ----------------------------
+# 📦 Dependency Cache
+# ----------------------------
+node_modules/
+
+# ----------------------------
+# 🔐 Secrets
+# ----------------------------
+*.pem
+*.key
