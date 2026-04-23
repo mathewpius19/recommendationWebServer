@@ -1,6 +1,6 @@
-# 🎬 Movie Recommendation Backend (Spring Boot)
+# Recommendation Backend Webserver(Spring Boot)
 
-## 📌 Overview
+## Overview
 
 This is the Spring Boot backend service for the movie recommendation system.
 
@@ -13,7 +13,7 @@ The backend handles API requests, communicates with the ML service, and retrieve
 
 ---
 
-## 🧠 Responsibilities
+## Responsibilities
 
 - Expose REST APIs for frontend  
 - Call ML service using WebClient  
@@ -23,7 +23,7 @@ The backend handles API requests, communicates with the ML service, and retrieve
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 Frontend (Next.js)  
         ↓  
@@ -35,7 +35,7 @@ FAISS + Embeddings
 
 ---
 
-## 🚀 API Endpoints
+## API Endpoints
 
 ### 🔍 Search Movies
 
@@ -71,17 +71,17 @@ Response:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Java 17+  
 - Spring Boot  
 - Spring WebFlux (WebClient)  
-- JPA / Hibernate  
-- MySQL / PostgreSQL (or any relational DB)  
+- JPA  
+- PostgreSQL (or any relational DB)  
 
 ---
 
-## 🔧 Key Features
+## Key Features
 
 - Integration with ML microservice  
 - Ranking preserved from ML results  
@@ -90,27 +90,7 @@ Response:
 
 ---
 
-## 🧪 Running the Service
-
-### 1. Build project
-
-mvn clean install  
-
-### 2. Run application
-
-mvn spring-boot:run  
-
----
-
-## 🔗 ML Service Dependency
-
-Make sure the Flask ML service is running:
-
-http://localhost:4400  
-
----
-
-## 🎯 Summary
+## Summary
 
 This backend enables:
 
