@@ -1,4 +1,4 @@
-# Recommendation Backend Webserver(Spring Boot)
+# Recommendation Webserver
 
 ## Overview
 
