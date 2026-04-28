@@ -77,16 +77,7 @@ Response:
 - Spring Boot  
 - Spring WebFlux (WebClient)  
 - JPA  
-- PostgreSQL (or any relational DB)  
-
----
-
-## Key Features
-
-- Integration with ML microservice  
-- Ranking preserved from ML results  
-- Clean API layer using DTOs  
-- Scalable service design  
+- PostgreSQL
 
 ---
 
